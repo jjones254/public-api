@@ -11,7 +11,6 @@ fetch(urlAPI)
     .then(res => res.json())
     .then(res => res.results)
     .then(displayEmployees)
-    
     .catch(err => console.log(err))
 
 // display employee data from API on page 
