@@ -29,10 +29,15 @@ header {
 .card {
     display: flex;
     align-items: center;;
-    border: 1px solid #778;
+    border: 2px solid #778;
     border-radius: 5px;
     padding: 1em;
     flex: 1 1 0;
+    background: seashell;
+}
+
+.card:hover {
+    box-shadow: 0px 4px 4px slateblue;
 }
 
 .avatar {
@@ -63,7 +68,7 @@ header {
     margin: 15% auto auto;
     position: relative;
     text-align: center;
-    background: #fff;
+    background: seashell;
     border: 1px solid #778;
     border-radius: 5px;
     padding: 30px 20px;
@@ -81,3 +86,4 @@ header {
 .hidden {
     display: none;
 }
+
